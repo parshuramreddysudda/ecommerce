@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/ECommerce.Api.Search.props" />
+</Project>

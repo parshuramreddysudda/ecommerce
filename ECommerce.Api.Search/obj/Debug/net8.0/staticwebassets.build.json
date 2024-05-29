@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FHejlqfgFvLkdzaKemGakogtHbuj7rpghjaQgHPYsf4=",
+  "Source": "ECommerce.Api.Search",
+  "BasePath": "_content/ECommerce.Api.Search",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
