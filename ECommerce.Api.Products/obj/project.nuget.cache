@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s/tsNoG22axwjZ9mczpA1+joPJJ2o+ZMlAVPqGgAppUBJp/zK2LwscbI6O7nYgF+ZsnFooYj2w6VyXrKiaPIVQ==",
+  "dgSpecHash": "1pNbr6j9QBevtocUOxEKxoImx2ECP3OWdFoKzblAcIJ/vJGFsqCpwbBPIpv4nn6dXc3aReXIP+cQ04I6Pjg+Ow==",
   "success": true,
-  "projectFilePath": "/Users/ram/Documents/GitHub/Antra_Assignments/Azure Learning/ECommerce/ECommerce.Api.Products/ECommerce.Api.Products.csproj",
+  "projectFilePath": "/Users/ram/Documents/GitHub/SecondAccount/ecommerce/ECommerce.Api.Products/ECommerce.Api.Products.csproj",
   "expectedPackageFiles": [
     "/Users/ram/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/ram/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

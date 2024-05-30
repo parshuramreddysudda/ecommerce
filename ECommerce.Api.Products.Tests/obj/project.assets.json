@@ -12185,11 +12185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ram/Documents/GitHub/Antra_Assignments/Azure Learning/ECommerce/ECommerce.Api.Products.Tests/ECommerce.Api.Products.Tests.csproj",
+      "projectUniqueName": "/Users/ram/Documents/GitHub/SecondAccount/ecommerce/ECommerce.Api.Products.Tests/ECommerce.Api.Products.Tests.csproj",
       "projectName": "ECommerce.Api.Products.Tests",
-      "projectPath": "/Users/ram/Documents/GitHub/Antra_Assignments/Azure Learning/ECommerce/ECommerce.Api.Products.Tests/ECommerce.Api.Products.Tests.csproj",
+      "projectPath": "/Users/ram/Documents/GitHub/SecondAccount/ecommerce/ECommerce.Api.Products.Tests/ECommerce.Api.Products.Tests.csproj",
       "packagesPath": "/Users/ram/.nuget/packages/",
-      "outputPath": "/Users/ram/Documents/GitHub/Antra_Assignments/Azure Learning/ECommerce/ECommerce.Api.Products.Tests/obj/",
+      "outputPath": "/Users/ram/Documents/GitHub/SecondAccount/ecommerce/ECommerce.Api.Products.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ram/.nuget/NuGet/NuGet.Config"
@@ -12204,8 +12204,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/ram/Documents/GitHub/Antra_Assignments/Azure Learning/ECommerce/ECommerce.Api.Products/ECommerce.Api.Products.csproj": {
-              "projectPath": "/Users/ram/Documents/GitHub/Antra_Assignments/Azure Learning/ECommerce/ECommerce.Api.Products/ECommerce.Api.Products.csproj"
+            "/Users/ram/Documents/GitHub/SecondAccount/ecommerce/ECommerce.Api.Products/ECommerce.Api.Products.csproj": {
+              "projectPath": "/Users/ram/Documents/GitHub/SecondAccount/ecommerce/ECommerce.Api.Products/ECommerce.Api.Products.csproj"
             }
           }
         }
@@ -12257,7 +12257,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

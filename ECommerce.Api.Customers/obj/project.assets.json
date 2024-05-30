@@ -6764,11 +6764,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ram/Documents/GitHub/Antra_Assignments/Azure Learning/ECommerce/ECommerce.Api.Customers/ECommerce.Api.Customers.csproj",
+      "projectUniqueName": "/Users/ram/Documents/GitHub/SecondAccount/ecommerce/ECommerce.Api.Customers/ECommerce.Api.Customers.csproj",
       "projectName": "ECommerce.Api.Customers",
-      "projectPath": "/Users/ram/Documents/GitHub/Antra_Assignments/Azure Learning/ECommerce/ECommerce.Api.Customers/ECommerce.Api.Customers.csproj",
+      "projectPath": "/Users/ram/Documents/GitHub/SecondAccount/ecommerce/ECommerce.Api.Customers/ECommerce.Api.Customers.csproj",
       "packagesPath": "/Users/ram/.nuget/packages/",
-      "outputPath": "/Users/ram/Documents/GitHub/Antra_Assignments/Azure Learning/ECommerce/ECommerce.Api.Customers/obj/",
+      "outputPath": "/Users/ram/Documents/GitHub/SecondAccount/ecommerce/ECommerce.Api.Customers/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ram/.nuget/NuGet/NuGet.Config"
@@ -6839,7 +6839,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  ecommerce.api.search:
+    build:
+      context: "/Users/ram/Documents/GitHub/SecondAccount/ecommerce"
+      dockerfile: "ECommerce.Api.Search/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/ECommerce.Api.Search.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "ecommerce.api.search:dev"
+    ports: []
+    volumes:
+    - "/Users/ram/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/ram/Documents/GitHub/SecondAccount/ecommerce/ECommerce.Api.Search:/app:rw"
+    - "/Users/ram/Documents/GitHub/SecondAccount/ecommerce:/src:rw"
+    working_dir: "/app"

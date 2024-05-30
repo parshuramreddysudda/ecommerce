@@ -1,0 +1,35 @@
+﻿services:
+  ecommerce.api.search:
+    image: ecommerce.api.search
+    build:
+      context: .
+      dockerfile: ECommerce.Api.Search/Dockerfile
+    environment:
+      - Services__Products=http://ecommerce.api.products:8080
+      - Services__Orders=http://ecommerce.api.orders:8080
+      - Services__Customers=http://ecommerce.api.customers:8080
+    ports:
+      - "46001:8080"
+    
+  ecommerce.api.products:
+    image: ecommerce.api.products
+    build:
+      context: .
+      dockerfile: ECommerce.Api.Products/Dockerfile
+    ports:
+      - "46002:8080"
+  ecommerce.api.orders:
+    image: ecommerce.api.orders
+    build:
+      context: .
+      dockerfile: ECommerce.Api.Orders/Dockerfile
+    ports:
+      - "46003:8080"
+
+  ecommerce.api.customers:
+    image: ecommerce.api.customers
+    build:
+      context: .
+      dockerfile: ECommerce.Api.Customers/Dockerfile
+    ports:
+      - "46004:8080"
