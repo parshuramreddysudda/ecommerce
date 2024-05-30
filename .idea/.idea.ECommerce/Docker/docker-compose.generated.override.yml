@@ -1,5 +1,62 @@
 # This is a generated file. Not intended for manual editing.
 services:
+  ecommerce.api.customers:
+    build:
+      context: "/Users/ram/Documents/GitHub/SecondAccount/ecommerce"
+      dockerfile: "ECommerce.Api.Customers/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/ECommerce.Api.Customers.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "ecommerce.api.customers:dev"
+    ports: []
+    volumes:
+    - "/Users/ram/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/ram/Documents/GitHub/SecondAccount/ecommerce/ECommerce.Api.Customers:/app:rw"
+    - "/Users/ram/Documents/GitHub/SecondAccount/ecommerce:/src:rw"
+    working_dir: "/app"
+  ecommerce.api.orders:
+    build:
+      context: "/Users/ram/Documents/GitHub/SecondAccount/ecommerce"
+      dockerfile: "ECommerce.Api.Orders/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/ECommerce.Api.Orders.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "ecommerce.api.orders:dev"
+    ports: []
+    volumes:
+    - "/Users/ram/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/ram/Documents/GitHub/SecondAccount/ecommerce/ECommerce.Api.Orders:/app:rw"
+    - "/Users/ram/Documents/GitHub/SecondAccount/ecommerce:/src:rw"
+    working_dir: "/app"
+  ecommerce.api.products:
+    build:
+      context: "/Users/ram/Documents/GitHub/SecondAccount/ecommerce"
+      dockerfile: "ECommerce.Api.Products/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/ECommerce.Api.Products.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "ecommerce.api.products:dev"
+    ports: []
+    volumes:
+    - "/Users/ram/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/ram/Documents/GitHub/SecondAccount/ecommerce/ECommerce.Api.Products:/app:rw"
+    - "/Users/ram/Documents/GitHub/SecondAccount/ecommerce:/src:rw"
+    working_dir: "/app"
   ecommerce.api.search:
     build:
       context: "/Users/ram/Documents/GitHub/SecondAccount/ecommerce"
