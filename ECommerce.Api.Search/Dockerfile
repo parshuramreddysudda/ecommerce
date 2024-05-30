@@ -9,7 +9,7 @@ ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["ECommerce.Api.Search/ECommerce.Api.Search.csproj", "ECommerce.Api.Search/"]
 RUN dotnet restore "ECommerce.Api.Search/ECommerce.Api.Search.csproj"
-COPY . .
+COPY . ECommerce.Api.Search/
 WORKDIR "/src/ECommerce.Api.Search"
 RUN dotnet build "ECommerce.Api.Search.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
